@@ -1,6 +1,6 @@
 name: app_links_platform_interface
 description: A common platform interface for the app_links plugin.
-homepage: https://github.com/llfbandit/app_links/app_links_platform_interface
+homepage: https://github.com/Village-Baby/app_links/app_links_platform_interface
 version: 1.0.2
 
 environment:
