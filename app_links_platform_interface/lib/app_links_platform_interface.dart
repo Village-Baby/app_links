@@ -40,8 +40,7 @@ abstract class AppLinksPlatform extends PlatformInterface {
   /// Callback when your app is woke up by an incoming link
   /// [uri] and [stringUri] are same value.
   /// [stringUri] is available for custom handling like uppercased uri.
-  void onAppLink({required OnAppLinkFunction onAppLink}) =>
-      throw UnimplementedError(
+  void onAppLink({required OnAppLinkFunction onAppLink}) => throw UnimplementedError(
         'onAppLink not implemented on the current platform.',
       );
 

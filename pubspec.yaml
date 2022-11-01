@@ -1,7 +1,7 @@
 name: app_links
 description: Android App Links, Deep Links, iOs Universal Links and Custom URL schemes handler for Flutter.
 version: 2.2.2
-homepage: https://github.com/llfbandit/app_links
+homepage: https://github.com/Village-baby/app_links
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
