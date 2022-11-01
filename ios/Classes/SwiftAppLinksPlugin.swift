@@ -55,6 +55,9 @@ public class SwiftAppLinksPlugin: NSObject, FlutterPlugin {
     _ application: UIApplication,
     open url: URL,
     options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
+    if (url.absoluteString.hasPrefix("kakao")) {
+        return false
+    }
     
     handleLink(url: url)
     return true
