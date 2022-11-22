@@ -60,7 +60,7 @@ public class SwiftAppLinksPlugin: NSObject, FlutterPlugin {
     }
     
     handleLink(url: url)
-    return true
+    return false
   }
 
   fileprivate func handleLink(url: URL) -> Void {
